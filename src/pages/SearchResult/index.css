@@ -1,0 +1,57 @@
+.item-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0 0;
+  font-size: 14px;
+}
+
+.item-footer > .author-info {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-footer > .time-footer {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-container {
+  h1 {
+    margin-bottom: 12px;
+    cursor: pointer;
+  }
+}
+
+.loading-box,
+.empty-box {
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+}
+
+.title-text {
+  font-size: 24px !important;
+}
+
+@media screen and (max-width: 500px) {
+  .item-footer {
+    font-size: 14px;
+  }
+  .list-group-item {
+    padding: 16px 12px;
+  }
+  .list-container {
+    padding: 16px;
+  }
+  .website-title {
+    font-size: 32px !important;
+  }
+  .search-container {
+    margin-top: 40% !important;
+  }
+}
